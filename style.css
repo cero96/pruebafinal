@@ -1,0 +1,55 @@
+
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
+        font-family: 'Georgia', serif;
+
+    }
+
+
+.card {
+        width: 200px; 
+        height: 300px; 
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 9px; 
+        position: relative;        
+    }
+
+.corner {
+    position: absolute;
+    font-size: 24px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.letra {
+    font-weight: bold;
+}
+
+.pika {
+    font-size: 29px; 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.large-suit {
+    font-size: 90px;
+} */
